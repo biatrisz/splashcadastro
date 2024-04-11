@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "ProjetoPadrao",
-    "slug": "ProjetoPadrao",
+    "name": "Splash",
+    "slug": "Splash",
     "version": "1.0.0",
+    "scheme": "Splash",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -25,6 +26,9 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
